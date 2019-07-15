@@ -1,7 +1,7 @@
 ## Title
 Akan names
 ## Introduction.
-  Akan namings has come to aid out the way some cultures give names in there society. We have an example of a culture in Ghana.
+  Akan namings has come to aid in the way some cultures give names in there society. We have an example of a culture in Ghana.
 
 #### Why was Akan naming introduced??
  Akan website was created to help in calculating the day of the week that you
