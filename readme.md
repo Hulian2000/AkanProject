@@ -21,3 +21,5 @@ It easily keeps your datas in record. One may easily track his community out rea
 ## Technologies used.
 * HTML...has forms that allows users to enter inputs.
 * JS .... It calculates functions.
+## License
+*MIT 2019*
