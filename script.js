@@ -8,7 +8,7 @@ function calculate(){
   month=document.getElementById('month').value;
   day=document.getElementById('day').value;
   dayOfTheWeek=( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day ) mod 7
-  return dayOfTheWeek;(Math round(dayOfTheWeek));
+  return dayOfTheWeek;(Math.round(dayOfTheWeek));
 }
 function lookUp(){
   var calc=calculate();
@@ -52,11 +52,7 @@ function lookUp(){
     } else {
         document.write("You born on "+weekDays[6]+"Akan name is "+females[6]);
     }
-
-
-    }
-  }
-  else {
-    console.console.log("Failed");
+  } else {
+    console.log("Failed");
   }
   }
