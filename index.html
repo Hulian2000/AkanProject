@@ -1,45 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="styles.css">
-    <title>Akan names</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Akan names</title>
 </head>
+
 <body>
   <div class="container-fluid">
     <div class="backgrounding">
-
-
-    <div class="row">
-      <div class="col-md-6">
-        <h1>AkanNamings</h1>
-        <h2>Welcome to AkanNamings</h2> <br>Would you want to knw more of AkanNamings???
-    <p>Days and weeks are words used in naming the newborns in Ghananian cuulture</p>
-    <p>African diaspora and western side of Africa use AkanNamings often</p>
+        <h1>Akan Namings</h1><br><br><br><br>
+      <div class="row">
+        <div class="col-md-6">
+            <div class="overlay">
+          <h2>Welcome to AkanNamings<br>Would you want to know more of AkanNamings???</h2>
+          <p>Days and weeks are words used in naming the newborns in Ghananian cuulture</p>
+          <p>African diaspora and western side of Africa use AkanNamings often</p>
+          <p>Akan website helps you get to identify the day of the week that you were born
+            just by using your birthday details.
+          </p>
+        </div>
       </div>
-      <div class="col-md-6">
-        <form class="" action="index.html" method="post">
-          Century:<br>
-          <input type="number" name="Century" id="century"><br>
-          Year:<br>
-          <input type="number" name="Year"id="year"><br>
-          month:<br>
-          <input type="number" name="month"id="month"><br>
-          Day:<br>
-          <input type="number" name="Day"id="day"><br>
-          Gender:<br>
-          <input type="radio" name="gender"id="male"> Male
-          <input type="radio" name="gender"id="female"> Female <br>
-          <input type="submit" name="submit" value="submit" onclick="lookUp()">
-        </form>
-
+        <div class="col-md-6">
+          <div class="overlay">
+          <p>
+            Enter your birthday details below
+          </p>
+          <form class="" action="index.html" method="post">
+            <label>Century:</label><br>
+            <input type="number" name="Century" id="century"><br>
+            <label>Year:</label> Year:<br>
+            <input type="number" name="Year" id="year"><br>
+            <label>Month:</label><br>
+            <input type="number" name="month" id="month"><br>
+            <label>Day:</label><br>
+            <input type="number" name="Day" id="day"><br>
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" id="male"><label>Male</label> 
+            <input type="radio" name="gender" id="female"><label>Female</label><br>
+            <input type="submit" name="submit" onclick="lookDayOfTheWeek()" value="submit">
+          </form>
+        </div>
       </div>
-    </div>
     </div>
   </div>
-  </body>
+  </div>
+</body>
 <script type="text/javascript" src="script.js"></script>
 </html>
